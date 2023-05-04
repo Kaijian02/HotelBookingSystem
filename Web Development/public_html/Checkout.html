@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link rel="stylesheet" type="text/css" href="cssCheckout.css">-->
+    </head>
+    <body>
+        <header>
+
+            <h1>Hotel Booking System</h1>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Reservation.html">Rooms</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="BookingHistory.html">History</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="">
+		<h1>Hotel Booking Checkout Form</h1>
+		<form method="post" action="process.php">
+			<label for="fullname">Full Name:</label>
+			<input type="text" name="fullname" required>
+			<label for="email">Email:</label>
+			<input type="email" name="email" required>
+			<label for="phone">Phone:</label>
+			<input type="text" name="phone" required>		
+			<label for="cardnumber">Card Number:</label>
+			<input type="text" name="cardnumber" required>
+			<label for="expmonth">Expiration Month:</label>
+			<input type="text" name="expmonth" required>
+			<label for="expyear">Expiration Year:</label>
+			<input type="text" name="expyear" required>
+			<label for="cvv">CVV:</label>
+			<input type="text" name="cvv" required>
+			<input type="submit" name="submit" value="Book Now">
+		</form>
+	</div>
+        
+        <footer>
+            <p>&copy; 2023 Hotel Booking System. All rights reserved.</p>
+            <img src="facebook.jpg" width="50" height="50" alt="Fecebook icon/>
+
+        </footer>
+    </body>
+</html>
