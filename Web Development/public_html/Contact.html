@@ -5,46 +5,159 @@
         <title>Contact</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--<link rel="stylesheet" type="text/css" href="cssContact.css">-->
-        <!--<link rel="stylesheet" type="text/css" href="style.css">-->
-    
-    <header>
+        <link rel="stylesheet" type="text/css" href="cssContact.css">
+        <link rel="stylesheet" type="text/css" href="css/style2.css">
 
-            <h1>Hotel Booking System</h1>
-            <nav>
-                <ul>
-                    <li><a href="Home.html">Home</a></li>
-                    <li><a href="Reservation.html">Rooms</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                    <li><a href="BookingHistory.html">History</a></li>
-                </ul>
-            </nav>
+    </head>
+
+    <body>
+        <!--Header-->
+        <header>
+            <div class="logo">
+                <img src="img/logo2.png"  alt="Company Logo">
+            </div>
+            <div class="nav-container">
+                <nav>
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="Reservation.html">Room</a></li>
+                        <li class="home-link"><a href="Contact.html">Contact</a></li>
+                        <li><a href="About.html">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="search-container">
+                <form action="">
+                    <input type="text" placeholder="Search rooms" name="search" style="margin-bottom:0px">
+                    <button type="submit"><i class="fa fa-search"></i>
+                </form>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">My Account</button>
+                <div class="dropdown-content">
+                    <a href="BookingHistory.html">Booking History</a>
+                    <a href="ChangePassword.html">Change Password</a>
+                    <a href="Login.html">Logout</a>
+                    <a href="Login.html">Login</a>
+                </div>
+            </div>
+            <!--
+            <div class="user-info">
+                <p>Welcome, John Doe</p>
+                <a href="Login.html">Account</a>
+            </div> 
+            -->
 
         </header>
-    
-    <body>
-        <div class="container">
-      <h1>Feedback Form</h1>
-      <form action="submit.php" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <!--Header End-->
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <section>           
+            <!--About Start-->
+            <!--Feedback Start-->
+            <div class="about" style="background-color: #d8dfe5; height: 610px; width:100%; padding: 4em 0;">
+                <div class="container" style="height: 480px;">
+                    <div class="row" style="height: 480px;" >
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" placeholder="Enter your feedback" required></textarea>
+                        <div class="details-image" style="background-color: white; border-radius: 10px; border: 2px solid #a6a8bb; padding: 20px;">
+                            <h3>Contact Information</h3>
+                            <div class="contact-container">                          
+                                <i> SCHotel@gmail.com</i>
+                                <i> 04-5235829</i>
+                                <i > 823, Jln Bagan, Lorong 2, 57000 Kuala Lumpur </i>
+                            </div>
+                        </div>
 
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-    </body>
-    
-     <footer>
 
-            <p>&copy; 2023 Hotel Booking System. All rights reserved.</p>
-            <img src="facebook.jpg" width="50" height="50" alt="Fecebook icon/>
 
+                        <div class="details" style="float: left; height: 500px;">
+                            <div class="heading">
+                                <h2 class="gtco-left">Contact us</h2>
+                            </div>
+                            <form action="submit.php" method="POST">
+
+                                <input type="text" id="name" name="name" placeholder="Name *" required>
+
+
+                                <input type="email" id="email" name="email" placeholder="Email *" required>
+                                <input type="text" id="name" name="subject" placeholder="Subject *" required>
+
+
+                                <textarea id="message" style="height: 140px;" name="message" placeholder="Body *" required></textarea>
+
+                                <p class="center-text"><a href="reservation.html" class="book">Send</a></p> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Feedback End-->
+
+
+            <div class="container-map"">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.4919887344295!2d100.27929577578539!3d5.341603794637019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac048a161f277%3A0x881c46d428b3162c!2sINTI%20International%20College%20Penang!5e0!3m2!1sen!2smy!4v1683214563611!5m2!1sen!2smy"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+
+
+            <!--Contact Start-->
+            <!--
+            <div class="about" style="background-color: #d8dfe5; height: 570px; width:100%; margin-top: 10px;">
+                <div class="container">
+                    <div class="row" >
+                        <div class="details-image">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.4919887344295!2d100.27929577578539!3d5.341603794637019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac048a161f277%3A0x881c46d428b3162c!2sINTI%20International%20College%20Penang!5e0!3m2!1sen!2smy!4v1683214563611!5m2!1sen!2smy" width="500" height="400" style="border: 2px solid #a6a8bb; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+
+                    </div>
+                    <div class="details">
+                        <div class="heading">
+                            <h2 class="gtco-left">Contact Information</h2>
+                        </div>
+                        <div class="contact-container">                          
+                            <i> SCHotel@gmail.com</i>
+                            <i> 04-5235829</i>
+                            <i > 823, Jln Bagan, Lorong 2, 57000 Kuala Lumpur </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            -->
+            <!--Contact End-->
+            <!--About End-->
+
+        </section>
+
+
+
+
+
+        <!--Footer Start-->
+        <footer style="width:100%;">
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <p>Email: SCHotel@gmail.com</p>
+                <p>Phone: 04-5235829</p>
+            </div>
+            <div class="info">
+                <h3>Information</h3>
+                <p>About Us</p>
+                <p>Terms and Conditions</p>
+            </div>
+            <div class="social">
+                <h3>Social</h3>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="separator"></div>
+            <div class="copyright">
+                <p>&copy; 2023 SC Hotel Company. All rights reserved.</p>
+            </div>
         </footer>
+        <!--Footer End-->
+
+    </body>
 </html>

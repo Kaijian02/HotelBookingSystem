@@ -5,41 +5,140 @@
         <title>Home</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <header>
+        <link rel="stylesheet" type="text/css" href="css/style2.css">       
 
-            <h1>Hotel Booking System</h1>
-            <nav>
-                <ul>
-                    <li><a href="Home.html">Home</a></li>
-                    <li><a href="Reservation.html">Rooms</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                    <li><a href="BookingHistory.html">History</a></li>
-                </ul>
-            </nav>
+        <style>
+            .row{
+                margin-left: -15px;
+            }
+        </style>
+    </head>
+
+    <body >
+        <!--Header-->
+        <header>
+            <div class="logo">
+                <img src="img/logo2.png"  alt="Company Logo">
+            </div>
+            <div class="nav-container">
+                <nav>
+                    <ul>
+                        <li class="home-link"><a href="Home.html">Home</a></li>
+                        <li><a href="Reservation.html">Room</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        <li><a href="About.html">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="search-container">
+                <form action="">
+                    <input type="text" placeholder="Search rooms" name="search" style="margin-bottom:0px">
+                    <button type="submit"><i class="fa fa-search"></i>
+                </form>
+            </div>
+            
+            <div class="dropdown">
+                <button class="dropbtn">My Account</button>
+                <div class="dropdown-content">
+                    <a href="BookingHistory.html">Booking History</a>
+                    <a href="ChangePassword.html">Change Password</a>
+                    <a href="Login.html">Logout</a>
+                    <a href="Login.html">Login</a>
+                </div>
+            </div>
+            <!--
+            <div class="user-info">
+                <p>Welcome, John Doe</p>
+                <a href="Login.html">Account</a>
+            </div> 
+                        -->
 
         </header>
-
-        <img src="img/home.jpg" width="500" height="200" alt="Hotel image"/> 
-        <p>Our services are of excellent quality and we are confident that you will enjoy them.</p>
-        <a href="reservation.html">Book Now!</a>
-
-        <h3>Why choose us?</h3>
-        <ul>
+        <!--Header End-->
 
 
-            <li>Good Services</li>
-            <li>Reasonable Prices</li>
-            <li>Free Wi-Fi</li>
-        </ul>
+        <img src="img/home1.jpg" alt="Image 1" width="100%" style="margin: 0; ">               
+        <p class="center-text"><a href="reservation.html" class="book">Book Now</a></p>                        
+                    
 
-        <footer>
+            
 
-            <p>&copy; 2023 Hotel Booking System. All rights reserved.</p>
-            <img src="facebook.jpg" width="50" height="50" alt="Fecebook icon/>
 
+        <!--About Start-->
+        <div class="about">
+            <div class="container">
+                <div class="row" >
+
+                    <div class="details-image">
+                        <img src="img/home1.jpg" alt="About img" class="about-pic"/>
+                    </div>
+                    <div class="details">
+                        <div class="heading">
+                            <h2 class="gtco-left">Safe & Comfort Hotel</h2>
+                        </div>
+                        <p style="margin-left: 40px;margin-top: -20px; ">S&C Hotel is a Malaysia-based company that offers quality hotel services at an affordable price. Our company's top priorities are the safety of our customers and providing a welcoming environment. We strive to create an exceptional experience for our guests, characterized by efficiency and prompt service. At S&C Hotel, we prioritize both goodness and speed as hallmarks of our establishment.</p>
+                        <br>
+                        <a href="about.html" class="btn-about" style="margin-left: 40px;">About us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--About End-->
+
+
+        <!--Why choose us? Start-->
+        <div class="features" style="width: 100%;">
+            <div class="features-container">
+                <div class="row">
+                    <div class="title">
+                        <h2 class="change-font">Why S&C Hotel ?</h2>
+                        <p>“EVERY NIGHT , A PLEASANT NIGHT !”</p>
+                        <div class="row">                           
+                            <div class="container-features">
+                                <div class="icon"><i class="fas fa-bed"></i></div>
+                                <div class="text">Safe and Comfort Rooms</div>
+                                <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div class="text">Strategic Location</div>
+                                <div class="icon"><i class="fas fa-wifi"></i></div>
+                                <div class="text">Free Wi-Fi</div>
+                                <div class="icon"><i class="fas fa-envelope"></i></div>
+                                <div class="text">Attractive Event</div>
+                                <div class="icon"><i class="fas fa-star"></i></div>
+                                <div class="text">Cheap Price</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Why choose us? End-->
+
+
+
+        <!--Footer Start-->
+        <footer style="width: 100%;">
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <p>Email: SCHotel@gmail.com</p>
+                <p>Phone: 04-5235829</p>
+            </div>
+            <div class="info">
+                <h3>Information</h3>
+                <p>About Us</p>
+                <p>Terms and Conditions</p>
+            </div>
+            <div class="social">
+                <h3>Social</h3>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="separator"></div>
+            <div class="copyright">
+                <p>&copy; 2023 SC Hotel Company. All rights reserved.</p>
+            </div>
         </footer>
+        <!--Footer End-->
     </body>
 </html>

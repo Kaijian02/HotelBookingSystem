@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                max-width: 800px;
+                margin: 0 auto;
+            }
+
+            .form {
+                flex: 1;
+                padding: 20px;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .form input,
+            .form textarea {
+                margin-bottom: 10px;
+            }
+
+            .image {
+                flex: 1;
+                max-width: 400px;
+                height: auto;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form class="form" action="#" method="post">
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+
+                <textarea id="message"  name="message" placeholder="Enter your feedback" required></textarea>
+
+                <p><a href="reservation.html">Send</a></p> 
+            </form>
+            <img class="image" src="your-image-url.jpg" alt="Image description">
+        </div>
+    </body>
+</html>

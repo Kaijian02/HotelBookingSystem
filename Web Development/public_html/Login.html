@@ -5,16 +5,25 @@
         <title>Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style1.css">
     </head>
-    <body>
-        <h2>Login</h2>
-		<form>		
-				<label for="email">Email</label>
-				<input type="email" name="email" id="email" required>
-			
-				<label for="password">Password</label>
-				<input type="password" name="password" id="password" required>
-			
-				<input type="submit" value="Register">		
-		</form>
+    <body style="background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/login2.jpg);">
+        <div class="container-login">
+            <form action="" method="POST" class="form-login">
+                <p class="text">Login</p>
+                <div class="field">
+                    <!--<label for="email">Email</label>-->
+                    <input type="email" placeholder="Email" name="email" id="email" required>
+                </div>
+                <div class="field">
+                    <!--<label for="password">Password</label>-->
+                    <input type="password" placeholder="Password" name="password" id="password" required>
+                </div>
+                <div class="field">
+                    <button name="submit" class="button">Login</button>
+                </div>
+
+                <p class="register-text">No account yet? <a href="register.html">Register here!</a></p>	
+            </form>
+        </div>
 </html>
