@@ -2,23 +2,52 @@
 
 <html>
     <head>
-        <title>Add rooms</title>
+        <title>Add Rooms</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/adminstyle.css">
+
+
     </head>
     <body>
-        <div>
-            <h2>Add rooms</h2>
-            <div>
-                <<img src="src" alt="Room picture"/>
+
+
+        <div class="sidenav">
+
+
+            <h1 style="color: #cdcdcd;text-align: center;padding: 10px;font-size: 25px;">S &AMP; C Hotel Booking System</h1>
+            <a href="AdminAction.html" style="padding-top: 100px;">Add Rooms</a>
+            <a href="AdminEdit.html">Rooms</a>
+            <a href="AdminBookings.html">Bookings</a>
+            <a href="Login.html">Logout</a>
+        </div>
+
+
+        <div class="container">
+            <h1 style="text-align: center;">Add Rooms</h1>
+            <div style="width: 50%; align-self: center; float: right;">
+                <img src="img/home1.jpg" alt="alt"/>
             </div>
-            <p>Browse Picture:</p>
-            <button>Browse</button>           
-            <p>Room name:</p>
-            <input type="text">
-            <p>Price:</p>
-            <input type="text">
-            <button>Add</button>
-        </div>              
+            <div class="row">
+                <div style="width: 50%; ">
+                    <form class="">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+
+                        <label for="price">Price:</label>
+                        <input type="number" id="price" name="price" min="0" step="0.01">
+
+                        <label for="picture">Picture:</label>
+                        <input type="file">
+
+                        <input type="submit" value="Add">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+
+
     </body>
 </html>

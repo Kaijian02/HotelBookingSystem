@@ -5,49 +5,133 @@
         <title>Reservation</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="css/style2.css">
+
+        <style>
+            input textarea, select {
+                width: 90% !important;
+                padding: 10px;
+                border: 2px;
+                border-radius: 5px;
+                margin-bottom: 15px;
+                box-sizing: border-box;
+            }
+        </style>
+
     </head>
     <body>
+        <!--Header-->
         <header>
+            <div class="logo">
+                <img src="img/logo2.png"  alt="Company Logo">
+            </div>
+            <div class="nav-container">
+                <nav>
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li class="home-link"><a href="Reservation.html">Room</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        <li><a href="About.html">About</a></li>
+                    </ul>
+                </nav>
+            </div>
 
-            <h1>Hotel Booking System</h1>
-            <nav>
-                <ul>
-                    <li><a href="Home.html">Home</a></li>
-                    <li><a href="Reservation.html">Rooms</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Contact.html">Contact</a></li>
-                    <li><a href="BookingHistory.html">History</a></li>
-                </ul>
-            </nav>
+            <div class="search-container">
+                <form action="">
+                    <input type="text" placeholder="Search rooms" name="search" style="margin-bottom:0px">
+                    <button type="submit"><i class="fa fa-search"></i>
+                </form>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">My Account</button>
+                <div class="dropdown-content">
+                    <a href="BookingHistory.html">Booking History</a>
+                    <a href="ChangePassword.html">Change Password</a>
+                    <a href="Login.html">Logout</a>
+                    <a href="Login.html">Login</a>
+                </div>
+            </div>
+            <!--
+            <div class="user-info">
+                <p>Welcome, John Doe</p>
+                <a href="Login.html">Account</a>
+            </div> 
+            -->
 
         </header>
-
-        <img src="img/home.jpg" width="500" height="200" alt="Hotel image"/> 
-        <p>Our services are of excellent quality and we are confident that you will enjoy them.</p>
-        <a href="reservation.html">Book Now!</a>
+        <!--Header End-->
 
 
-        <section>
-            <div>
-                <<img src="src" width="width" height="height" alt="alt"/>
-                <<h2>Superior Queen</h2>
-                <p>RM100.00</p>
-                <label for="paxs">Number of pax:</label>
-                <select id="paxs">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
-                <label for="checkin">Check-in date:</label>
-                <input type="date" id="checkin" name="checkin">
-                <label for="checkout">Check-out date:</label>
-                <input type="date" id="checkout" name="checkout">
-                
-                <a href="reservation.html">Book Now!</a>
-                
-            </div>
+
+
+        <section style="background-color: #f0f8ff;">
+            <div class="features-container" style="width: 1200px; height: 2700px;">
+                <div style="width: 1009.6px; height: 2552px;">
+                    <form action="action" style="width:1009.6px; height: 2532px;">
+                        <div style="float:left; width:100%; min-width: 992px; height: 315px; background-color: #d8dfe5; border-radius: 10px; margin: 20px;">
+                            <div style="width: 1009.6px; height: 315px;">
+                                <div style="width:41.66667%;height: 315px;float: left; padding: 20px;">
+                                    <img src="img/home1.jpg" width="390px" height="270px" alt="alt" style="border: 4px solid white;"/>
+                                </div>
+                                <div style="width:32%;float: left; padding-left: 15px;padding-right: 15px;">
+                                    <h2>RM300 per night</h2>
+                                    <h4>Deluxe Family</h4>
+                                    <ul>
+                                        <li>Room Available:4</li>
+                                        <li>Max:3 People</li>
+                                    </ul>
+                                </div>
+                                <div style="width: 25%; height: 310px;float: left; padding: 20px;">
+
+                                    <div style="width:100%;float: left;"> 
+                                        <label class="">
+                                            <span>Check-in</span>
+                                        </label>
+                                        <input type="date" id="checkIn" name="checkin">
+                                    </div>
+                                    <div class="" style="width:100%;float: left;"> 
+                                        <div style="width: 100%; float: left;"> 
+                                            <label class="">
+                                                <span>Check-out</span>
+                                            </label>
+                                            <input type="date" id="checkOut" name="checkout">
+                                        </div>
+                                    </div>
+                                    <div class="" style="width:100%;float: left;"> 
+                                        <div style="width: 50%; float: left;"> 
+                                            <label class="">
+                                                <span>Room(s)</span>
+                                            </label>
+                                            <select name="room_num" width="90%">
+                                                <option value="0" selected="">0</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                        </div>
+                                        <div style="width: 50%;float: left; margin-bottom: 10px;"> 
+                                            <label class="">
+                                                <span>Pax(s)</span>
+                                            </label>
+                                            <select name="pax_num"  class="dropDown">
+                                                <option value="0" selected="">0</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                            </select>
+                                        </div>                                    
+                                    </div>
+                                    <br/>
+                                    
+                                    <a href="Checkout.html" class="book" style="padding:8px 70px; text-decoration: none;">Book Now</a>
+
+                                </div>
+                            </div>
+                    </form>
+                </div>
+            </div>     
         </section>
 
 
@@ -55,10 +139,28 @@
 
 
 
-        <footer>
-            <p>&copy; 2023 Hotel Booking System. All rights reserved.</p>
-            <img src="facebook.jpg" width="50" height="50" alt="Fecebook icon/>
-
-                 </footer>
-                 </body>
-                 </html>
+        <!--Footer Start-->
+        <footer style="width:1520px; margin-left:-10px;">
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <p>Email: SCHotel@gmail.com</p>
+                <p>Phone: 04-5235829</p>
+            </div>
+            <div class="info">
+                <h3>Information</h3>
+                <p>About Us</p>
+                <p>Terms and Conditions</p>
+            </div>
+            <div class="social">
+                <h3>Social</h3>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="separator"></div>
+            <div class="copyright">
+                <p>&copy; 2023 SC Hotel Company. All rights reserved.</p>
+            </div>
+        </footer>
+        <!--Footer End-->
+    </body>
+</html>
