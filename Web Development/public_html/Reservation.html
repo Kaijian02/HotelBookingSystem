@@ -5,8 +5,12 @@
         <title>Reservation</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <link rel="stylesheet" type="text/css" href="css/style2.css">
+        <script src="https://kit.fontawesome.com/1527c486de.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
         <style>
             input textarea, select {
@@ -17,6 +21,14 @@
                 margin-bottom: 15px;
                 box-sizing: border-box;
             }
+
+            header, footer{
+                display: flex;
+            }
+
+
+
+
         </style>
 
     </head>
@@ -40,11 +52,11 @@
             <div class="search-container">
                 <form action="">
                     <input type="text" placeholder="Search rooms" name="search" style="margin-bottom:0px">
-                    <button type="submit"><i class="fa fa-search"></i>
+                    <button type="submit"><i class="fas fa-duotone fa-magnifying-glass fa-beat"></i>
                 </form>
             </div>
 
-            <div class="dropdown">
+            <div class="dropdown-acc">
                 <button class="dropbtn">My Account</button>
                 <div class="dropdown-content">
                     <a href="BookingHistory.html">Booking History</a>
@@ -75,7 +87,7 @@
                                 <div style="width:41.66667%;height: 315px;float: left; padding: 20px;">
                                     <img src="img/home1.jpg" width="390px" height="270px" alt="alt" style="border: 4px solid white;"/>
                                 </div>
-                                <div style="width:32%;float: left; padding-left: 15px;padding-right: 15px;">
+                                <div style="width:32%;float: left; padding-left: 15px;padding-right: 15px; margin-top: 20px;">
                                     <h2>RM300 per night</h2>
                                     <h4>Deluxe Family</h4>
                                     <ul>
@@ -83,7 +95,7 @@
                                         <li>Max:3 People</li>
                                     </ul>
                                 </div>
-                                <div style="width: 25%; height: 310px;float: left; padding: 20px;">
+                                <div style="width: 25%; height: 310px;float: left; padding: 20px; line-height: 1;">
 
                                     <div style="width:100%;float: left;"> 
                                         <label class="">
@@ -124,8 +136,8 @@
                                         </div>                                    
                                     </div>
                                     <br/>
-                                    
-                                    <a href="Checkout.html" class="book" style="padding:8px 70px; text-decoration: none;">Book Now</a>
+
+                                    <a href="Checkout.html" class="book" style="padding:8px 70px; text-decoration: none; display: inline-block">Book Now</a>
 
                                 </div>
                             </div>

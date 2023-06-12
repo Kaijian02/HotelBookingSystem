@@ -43,15 +43,11 @@ body {
     width: 90%;
     height: 20px;
     margin: auto;
-    margin-bottom: 50px;   
+    margin-bottom: 40px;   
 }
 
 
-.container-login .form-login .field2 {
-    width: 80%;
-    margin: auto; 
-    margin-top: 30px;
-}
+
 
 .container-login .form-login .field input {
     width: 90%;
@@ -81,7 +77,7 @@ body {
     cursor: pointer;
     transition: 0.3s;
     margin: auto;
-    margin-top: 30px;
+   
 }
 
 .container-login .form-login .field .button:hover {
