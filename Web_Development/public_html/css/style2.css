@@ -1,0 +1,563 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 26 Apr 2023, 12:05:59 am
+    Author     : lawka
+*/
+
+@media screen and (max-width: 800px){
+    .heading{
+        margin-bottom:  1em !important;
+    }
+
+    p{
+        margin-left: 0px
+    }
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: "Helvetica", Arial, serif;
+    color: #5a5c6f !important;
+    margin: 0;
+    height: 100%;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 10px;
+    background-color: #ffffff;
+
+
+}
+
+.logo{
+    width: 200px;
+    height: 55px;
+}
+
+.logo img {
+
+    width: 135px;
+    height: 55px;
+    margin-bottom: 10px;
+
+}
+
+.nav-container .home-link a {
+    color: red;
+}
+
+.nav-container a:hover{
+    color:red;
+
+}
+
+.nav-container nav{
+
+    border-radius: 4px;
+    padding: 5px 10px;
+    justify-content: center;
+}
+
+
+.nav-container nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container nav li {
+    margin: 0 10px;
+}
+
+.nav-container nav a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+input[type="text"], input[type="email"], input[type="number"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 2px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.search-container input{
+    border-radius: 5px;
+    width: 250px;
+}
+
+.search-container button{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 10px;
+    border: none;
+    background-color: white;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info p {
+    margin-right: 10px;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.user-info a {
+    background-color: #B7A4A1;
+    border-radius: 4px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.booking-history {
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.booking-history a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.center-text{
+    text-align: center;
+
+}
+
+.center-text a{
+    text-decoration: none;
+}
+
+
+.book {
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 7px 80px;
+    background: #DA5343;
+    color: #fff;
+    transition: transform 0.3s ease;
+    border: 2px solid #ffffff;
+
+}
+
+.book:hover {
+    background-color: #B7A4A1;
+    color: white;
+    transform: scale(1.05);
+}
+
+.btn-about{
+    background: #DA5343;
+    color: #fff;
+    border: 2px solid #FFFFFF;
+    padding: 7px 40px;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+
+.btn-about:hover{
+    background-color: #B7A4A1;
+    color: white;
+    border: 2px solid white;
+    transform: scale(1.05);
+}
+
+.dropdown-content a:hover{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+.details a{
+    text-decoration: none;
+}
+
+.about{
+    padding: 4em 0;
+    clear: both;
+    position: relative;
+
+
+}
+
+.container{
+    max-width: 1100px;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.row{
+    margin-left: 30px;
+
+}
+
+.details{
+    width: 55%;
+    height: 300px;
+}
+
+.heading{
+    margin-bottom: 5em;
+}
+
+.heading h2 {
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: -10px;
+    font-weight: 400;
+    color: #4d4f5f;
+    font-family: "Bahnschrift SemiBold";
+}
+
+
+
+.details-image{
+    width: 41.66667%;
+    float: right;
+}
+
+.about-pic{
+    max-width: 100%;
+}
+
+.features{
+    padding: 7em 0;
+    background: #d8dfe5;
+}
+
+.features-container{
+    max-width: 1100px;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.title{
+    margin-bottom: 3em;
+    margin-left: 16.66667%;
+    width: 66.66667%;
+    text-align: center;
+
+}
+
+.title h2 {
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    position: relative;
+    color: #696969;
+}
+
+.title p{
+    color: white;
+    margin-left: -6px;
+}
+
+.change-font {
+    font-family: "Cambria", cambria;
+
+}
+
+.feature-center {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.container-features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: bold;
+
+    color: #464646;
+}
+
+footer {
+    background-color: black;
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact, .info, .social, .copyright {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.social a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: inherit;
+    ;
+}
+
+
+.contact-container i{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+.about-location{
+    padding: 3em 0;
+    clear: both;
+    position: relative;
+    background: #d8dfe5;
+    margin-top: 20px;
+
+}
+
+.bck-color h3{
+    margin-left: 20px;
+
+}
+
+.bck-color{
+    background: #f7d0cb;
+    height: 360px;
+    width: 500px;
+    margin-left: 220px;
+    border-radius: 10px;
+
+}
+
+.container-history{
+    max-width: 1100px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+
+.dropbtn {
+    background-color: #a81c40;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.dropdown-acc {
+    position: relative;
+    display: inline-block;
+    width: 186.50px;
+}
+
+.dropdown-content {
+    z-index: 1;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content a {
+    padding: 10px 14px;
+    color: black;
+    display: block;
+    text-decoration: none;
+
+
+}
+
+.dropdown-content a:hover {
+    background-color: #f2b678;
+}
+
+.dropdown-acc:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-acc:hover .dropbtn {
+    background-color: #cc0000;
+}
+
+.changePass-form form {
+    margin: 0 auto;
+    max-width: 270px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 2px solid #ccc;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+input[type="date"]{
+    width: 100%;
+    padding: 10px;
+    border: 2px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+
+.map-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 70%;
+    border: 2px solid #4d4f5f;
+    border-radius: 10px;
+}
+
+.facilities-container{
+    background-color: #d8dfe5;
+    height: 570px;
+    width: 100%;
+    padding: 4em 0;
+    background-color: #d8dfe5;
+}
+
+.amenities-list{
+    width: 33.333%;
+    float: left;
+
+}
+
+.AMENITIES .amenities-container ul li span._icon {
+    display: block;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AMENITIES .amenities-container ul li {
+    list-style: none;
+    font-size: 16px;
+    color: #222;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.amenities-container h2{
+    font-size: 30px;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    color: #4d4f5f;
+    font-family: "Bahnschrift SemiBold";
+    margin: 0;
+
+}
+
+.amenities-img{
+    width: 38px;
+    height: 38px;
+    font-size: 16px;
+}
+
+#searchBar::placeholder {
+    color: grey;
+}
+
+#searchBar[data-placeholder-color="red"]::placeholder {
+    color: red;
+}
+

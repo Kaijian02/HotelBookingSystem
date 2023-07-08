@@ -1,0 +1,105 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 19 Apr 2023, 3:35:45 pm
+    Author     : lawka
+*/
+
+* {
+    
+    font-family: 'Trebuchet MS';
+}
+
+body {
+    min-height: 80vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-login{
+    width: 350px;
+    min-height: 350px;
+    background: #B7A4A1;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+}
+
+.container-login .text {
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.container-login .form-login .field {
+    width: 90%;
+    height: 20px;
+    margin: auto;
+    margin-bottom: 40px;   
+}
+
+
+
+
+.container-login .form-login .field input {
+    width: 90%;
+    height: 70%;
+    border: 3px solid #e6e6fa;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 20px;
+    outline: none;
+}
+
+.container-login .form-login .field input:focus, .container .login-email .field input:valid {
+    border-color: #b0e0e6;
+}
+
+.container-login .form-login .field .button {
+    display: block;
+    width: 70%;   
+    padding: 10px 10px;
+    text-align: center;
+    border: none;
+    background: #ffe4e1;
+    outline: none;
+    border-radius: 35px;
+    font-size: 1.2rem;
+    color: #977073;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: auto;
+   
+}
+
+.container-login .form-login .field .button:hover {
+    transform: scale(1.05);
+    background: #ffc0cb;
+    
+}
+
+.register-text {
+    color: #111;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.register-text a {
+    text-decoration: none;
+    color: #ffe4e1;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
