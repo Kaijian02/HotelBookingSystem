@@ -1,4 +1,4 @@
-/*
+     /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
 */
@@ -10,6 +10,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 body {
     background-color: #f2f2f2;
     font-family: Arial, sans-serif;
+   
+    
 }
 
 .container {
@@ -22,33 +24,6 @@ body {
     display: flex;
     margin-bottom: 20px;
     
-}
-
-.left {
-    width: 50%;  
-    background-color: #dceaf7;
-}
-
-.right {
-    width: 50%;
-    margin-left: 20px;
-    background-color: #aabdc4;
-    border-radius: 10px;
-}
-
-.right h3{
-    text-align: center;
-    color: #567b89;
-    padding: 1rem;
-    font-weight: 600;
-    background-color: #BAD6F0;
-    border-radius: 5px;
-}
-
-.right p{
-    padding: 1rem;
-    font-weight: 600;
-   
 }
 
 .container-checkout{
@@ -75,7 +50,7 @@ label {
 }
 
 input[type="text"], input[type="email"], input[type="number"], textarea, select {
-    width: 90%;
+    width:100%;
     padding: 10px;
     border: 2px;
     border-radius: 5px;

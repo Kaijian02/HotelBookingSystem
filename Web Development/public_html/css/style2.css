@@ -43,11 +43,11 @@ header {
 
 .logo{
     width: 200px;
-    height: 45px;
+    height: 55px;
 }
 
 .logo img {
-    margin-left: 20px;
+
     width: 135px;
     height: 55px;
     margin-bottom: 10px;
@@ -165,9 +165,10 @@ input[type="text"], input[type="email"], input[type="number"], textarea, select 
     font-weight: 400;
     border-radius: 4px;
     padding: 7px 80px;
-    background: #FF0000;
+    background: #DA5343;
     color: #fff;
     transition: transform 0.3s ease;
+    border: 2px solid #ffffff;
 
 }
 
@@ -178,9 +179,9 @@ input[type="text"], input[type="email"], input[type="number"], textarea, select 
 }
 
 .btn-about{
-    background: #FF0000;
+    background: #DA5343;
     color: #fff;
-    border: 2px solid #FF0000;
+    border: 2px solid #FFFFFF;
     padding: 7px 40px;
     border-radius: 4px;
     margin-top: 10px;
@@ -189,6 +190,7 @@ input[type="text"], input[type="email"], input[type="number"], textarea, select 
 
 .btn-about:hover{
     background-color: #B7A4A1;
+    color: white;
     border: 2px solid white;
     transform: scale(1.05);
 }
@@ -275,6 +277,7 @@ a:hover{
     margin-left: 16.66667%;
     width: 66.66667%;
     text-align: center;
+
 }
 
 .title h2 {
@@ -326,7 +329,7 @@ a:hover{
 .text {
     font-size: 18px;
     font-weight: bold;
-   
+
     color: #464646;
 }
 
@@ -337,9 +340,9 @@ footer {
     justify-content: space-between;
 }
 
-.contact, .info, .social {
-    flex: 1;
+.contact, .info, .social, .copyright {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .social a {
@@ -477,21 +480,23 @@ input[type="date"]{
     box-sizing: border-box;
 }
 
-.container-map{
-    width: 100%;
-    padding: 40px;
 
+.map-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    max-width: 100%;
 }
 
-iframe{
-    display: block;
-    margin: auto;
-    border: 2px solid #a6a8bb;
+.map-container iframe {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 70%;
+    border: 2px solid #4d4f5f;
     border-radius: 10px;
-    width: 70%;
-    height: 500px;
-    overflow: hidden;
-    position: relative;
 }
 
 .facilities-container{
